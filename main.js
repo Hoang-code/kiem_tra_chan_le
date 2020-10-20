@@ -1,11 +1,10 @@
 function kiemtrachanle(){
-    let a = number(document.getElementById("number").value)
-    console.log (nhapso)
+    let a = Number(document.getElementById("dienso").value)
     let b = a % 2
-    console.log ()
-    if (b == "0"){
-        document.getElementById("hienketqua").innerText = "số vừa nhập là số chẵn"
-        console.log(hiensochan)
-    }
+        if (b == 0){
+            document.getElementById("hienketqua").innerText = a + " " + "là số chẵn"
+       }else{
+            document.getElementById("hienketqua"),innerText = a + "là số lẻ"
+        }
 
 }
